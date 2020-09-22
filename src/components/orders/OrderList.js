@@ -12,7 +12,7 @@ function OrderList(){
 
     const db = getFirestore();
     const orders = db.collection('orders');
-
+/* PRUEBA CAMBIO */
     let ordersAux = []
 
     orders.get().then((result, reject)=>{ // devuelve una Promise 
