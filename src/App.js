@@ -14,9 +14,8 @@ function Contenido(){
 
  return <> <Router>
 
-     
-      <div className="App" style={{alignContent:'center'}}>
-        <div className="row">
+      <div className="App">
+        <div className="row" >
           <div className="col s12 ">
             <NavBar>
               <CartIcon />
