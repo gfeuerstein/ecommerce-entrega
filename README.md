@@ -5,9 +5,9 @@ Se desarrollo un carrito de compras con las siguientes funcionalidades:
 
 ### `Lista de Productos segmentada por categorias`
 
-    Se podra ver una lista de todos los items, estos pueden filtrarse por categoria
+    Se podra ver una lista de todos los items, estos pueden filtrarse por categoria.
     El item tiene un detalle en donde muestra una descripción del mismo y se podrá 
-    seleccionar cantidad a comprar, verificando un minimo seteado para cada producto, 
+    seleccionar cantidad a comprar, verificando un minimo seteado para cada producto 
     y un máximo condicionado por su stock.
 
 ### `Agregar productos al cart`
@@ -39,7 +39,9 @@ La aplicación quedara corriendo en:<br />
 
  ### `react-loader-spinner`
 
-     Utilizada en los momentos en que la aplicacion queda suspendida a la espera de una respuesta del server (data fetching), mejorando así la usabilidad del usuario.
+     Utilizada en los momentos en que la aplicacion queda suspendida a 
+     la espera de una respuesta del server (data fetching), 
+     mejorando así la usabilidad del usuario.
  
 ## Funcionalidades Extras agregadas :
 
