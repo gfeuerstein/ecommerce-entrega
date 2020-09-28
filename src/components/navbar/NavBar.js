@@ -78,8 +78,13 @@ function NavBar({ children }) {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <Link to="/cart">Mis Compras</Link>
+                  <Link to={"/orders"}> Ordenes</Link>
                 </li>
+                
+                {/* <li>
+                  <Link to="/cart">Cart</Link>
+                </li>
+                 */}
 
                 <li>
                   <Link
@@ -137,20 +142,28 @@ function NavBar({ children }) {
 
           <li>
             <div class="collapsible-header">
-              <i class="material-icons">whatshot</i>About
+              <i class="material-icons">add_shopping_cart</i>Cart
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet.</span>
+              <ul>
+                <li key="cat">
+                  <Link to={"/cart"}>Compra Actual</Link>
+                </li>
+              </ul>
             </div>
           </li>
+
+
+          {/* 
           <li>
             <div class="collapsible-header">
               <i class="material-icons">settings</i>Configuracion
             </div>
             <div class="collapsible-body">
-              <span>Lorem ipsum dolor sit amet.</span>
+              <span>Disponible en próxima versión.</span>
             </div>
           </li>
+           */}
         </ul>
       </ul>
     </>
