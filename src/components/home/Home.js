@@ -32,6 +32,7 @@ function Home() {
   useEffect(() => {
     const db = getFirestore();
 
+    debugger;
     const itemCollection = db.collection("items"); // Esta es la coleccion que creamos en firebase
 
     let itemSelectd = pcat

@@ -25,7 +25,7 @@ function Cart() {
     setTotal(() => getTotalAmount());
   }, []);
 
-  const Totales = () => {
+   const Totales = () => {
     return (
       <>
         <div className="card indigo lighten-4">
@@ -226,6 +226,7 @@ function Cart() {
           precio: cartItem.precio,
           categoria: cartItem.categoria,
           cantidad: cartItem.cantidad,
+          productimg: cartItem.productimg
         }));
 
         const date = firebase.firestore.FieldValue.serverTimestamp(); //ASI CREAMOS UNA FECHA

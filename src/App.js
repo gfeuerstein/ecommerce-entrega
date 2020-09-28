@@ -8,7 +8,7 @@ import ItemList from './components/item/ItemList'
 import ItemDetail from "./components/item/ItemDetail";
 import {CartContextProvider} from './components/CartContext'
 import Cart from './components/Cart'
-import OrderList from "./components/orders/OrderList";
+import Order from "./components/orders/Order";
 
 function Contenido(){
 
@@ -54,9 +54,10 @@ function Contenido(){
       
         <Route path="/orders">
 
-          <OrderList />
+          <Order />
 
         </Route>
+
 
         </Switch>
         <div className="col s2 "></div>

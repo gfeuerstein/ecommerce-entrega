@@ -124,12 +124,12 @@ function NavBar({ children }) {
 
           <li>
             <div class="collapsible-header">
-              <i class="material-icons">inbox</i>Ordenes
+              <i class="material-icons">local_offer</i>Ordenes
             </div>
             <div class="collapsible-body">
               <ul>
                 <li key="cat">
-                  <Link to={"/orders"}>Ver Ordenes</Link>
+                  <Link to={"/orders"}>Buscar Ordenes</Link>
                 </li>
               </ul>
             </div>
