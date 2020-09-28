@@ -63,7 +63,6 @@ function Order() {
           <div className="card-content" style={{ height: 100 }}>
             <span className="card-title activator grey-text text-darken-4">
               {`Total $${order.total}`}
-              <i className="material-icons right">more_vert</i>
             </span>
 
           </div>
@@ -129,11 +128,15 @@ function Order() {
           </div>
         </div>
 
-        <div>
-        <button className="waves-effect waves-light btn-small" onClick={()=>{setOrder(null); setNroOrder(null)}} >
+        <div className="row">
+        <div className="col s6"></div>
+        <div className="col s3">
+        <button className="waves-effect waves-light btn-small right" onClick={()=>{setOrder(null); setNroOrder(null)}} >
               <i class="material-icons right">search</i>
-              Nueva Busqueda
+              Busqueda
             </button>
+        </div>
+        <div className="col s3"></div>
         </div>
       </>
     );

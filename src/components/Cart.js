@@ -35,7 +35,7 @@ function Cart() {
           <div className="card-content" style={{ height: 100 }}>
             <span className="card-title activator grey-text text-darken-4">
               {`Total $${total}`}
-              <i className="material-icons right">more_vert</i>
+             
             </span>
 
             {/*  <Link to='/home' style={{color:'bule'}} > Agregar orden!</Link> */}

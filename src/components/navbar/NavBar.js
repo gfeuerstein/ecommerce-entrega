@@ -75,7 +75,7 @@ function NavBar({ children }) {
             <div className="container">
               <ul id="nav-mobile" classNameName="right hide-on-med-and-down">
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/">Productos</NavLink>
                 </li>
                 <li>
                   <Link to={"/orders"}> Ordenes</Link>
