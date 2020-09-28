@@ -16,7 +16,7 @@ Se desarrollo un carrito de compras con las siguientes funcionalidades:
     La mismo podrá tener distintos tipos de items y cantidades.
 
 
-### `Generacón de orden`
+### `Generación de orden`
 
     El usuario al terminar de seleccionar los items, podrá generar una orden.
     Se realiza chequeo de stock al momento de generarla
